@@ -23,6 +23,9 @@ ftable(Pram)
 summary(Pram)
 
 
+##garbae code below is broken_moved chi2.csv's to a new folder< and they are all not set up right anyway. Need to add some kind of expected outcome_ or better yet use a different test. 
+
+
 hotVcold <- read_csv("chi.2.hs.cs.csv")
 attach(hotVcold)
 x2hvc<- table (HS,total.pram)
